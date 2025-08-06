@@ -19,7 +19,7 @@ export default function MyTweets() {
     },
   ];
 
-	const [posts, setPosts] = useState(dummyTweets);
+	const [posts, setPosts] = useState(myTweets);
 	const [editId, setEditId] = useState(null);
 	const [editContent, setEditContent] = useState("");
 
